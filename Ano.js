@@ -10,7 +10,7 @@ if (message.content === 'setup') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(890987558320877568) 
 
 .then(connection => { 
 
@@ -45,7 +45,7 @@ client.on("ready", () => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "سلاو رێکلام ") {
+  if (msg.content === "Reklam ") {
     msg.reply("**تکایە راوەستە تاکوو وڵام دەدرێیتەوە kissing_cat: ");
   }
 }); 
